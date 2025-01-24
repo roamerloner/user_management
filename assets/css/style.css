@@ -1,0 +1,68 @@
+
+body {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+
+.table th {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+
+.form-check-input {
+    cursor: pointer;
+}
+
+
+.btn-group {
+    gap: 5px;
+}
+
+
+#filterInput {
+    max-width: 300px;
+}
+
+
+.badge {
+    font-size: 0.85em;
+    padding: 0.4em 0.6em;
+}
+
+
+@media (max-width: 768px) {
+    .btn-group {
+        margin-bottom: 1rem;
+    }
+    
+    .d-flex {
+        flex-direction: column;
+    }
+    
+    #filterInput {
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+}
+
+
+.tooltip {
+    font-size: 0.875rem;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
